@@ -95,7 +95,7 @@
             }
 
             /* Container for image text */
-            .caption-container {1
+            .caption-container {
               text-align: center;
               background-color: #222;
               padding: 2px 16px;
@@ -175,8 +175,8 @@
           <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
 
-        <div class="caption-container 1">
-          <p id="caption 1"></p>
+        <div class="caption-container ">
+          <p id="caption "></p>
         </div>
         <div class="row">
           <div class="column">
@@ -250,7 +250,6 @@
                 var i;
                 var slides = document.getElementsByClassName("mySlides");
                 var dots = document.getElementsByClassName("demo");
-                var captionText = document.getElementById("caption 1");
                 if (n > slides.length) {
                   slideIndex = 1;
                 }
@@ -265,7 +264,7 @@
                 }
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
-                captionText.innerHTML = dots[slideIndex - 1].alt;
+                captionText.innerHTML = dots[slideIndex - ].alt;
               }
             </script>
             </div>
@@ -765,7 +764,7 @@
                 var i;
                 var slides = document.getElementsByClassName("mySlides");
                 var dots = document.getElementsByClassName("demo");
-                var captionText = document.getElementById("caption 2");
+                var captionText = document.getElementById("caption 3");
                 if (n > slides.length) {
                   slideIndex = 1;
                 }
